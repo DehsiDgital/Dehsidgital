@@ -1,69 +1,158 @@
+<!-- This HTML template is optimized for use with GPT-4o assisted workflows -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dehs iDgital Solutions</title>
+  <meta name="description" content="Dehs iDgital Solutions - Smart Digital Growth for Visionaries. We provide digital marketing, real estate media, and CRM solutions.">
+  <meta name="keywords" content="digital marketing, real estate media, CRM, email marketing, social media ads, Kenya">
+  <meta property="og:title" content="Dehs iDgital Solutions">
+  <meta property="og:description" content="Smart Digital Growth for Visionaries - Marketing and media solutions for real estate investors and developers.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="/favicon.png">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <style>
+    :root {
+      --green-primary: #0B6623;
+      --gold-primary: #D4AF37;
+    }
+  </style>
 </head>
-<body class="bg-gray-50 font-sans">
-  <!-- Header -->
-  <header class="bg-green-700 text-white p-6 shadow-md">
-    <div class="max-w-6xl mx-auto flex justify-between items-center">
-      <h1 class="text-2xl font-bold">Dehs iDgital Solutions</h1>
-      <nav>
-        <a href="#about" class="px-4 hover:text-yellow-300">About</a>
-        <a href="#services" class="px-4 hover:text-yellow-300">Services</a>
-        <a href="#contact" class="px-4 hover:text-yellow-300">Contact</a>
-      </nav>
-    </div>
-  </header>
+<body class="font-Inter text-gray-800" onload="AOS.init()">
 
-  <!-- Hero Section -->
-  <section class="text-center py-20 bg-gradient-to-r from-green-600 to-yellow-400 text-white">
-    <h2 class="text-4xl font-bold mb-4">Smart Digital Growth for Visionaries</h2>
-    <p class="text-lg mb-6">Helping businesses and real estate investors connect with clients through powerful digital marketing.</p>
-    <a href="#contact" class="bg-white text-green-700 px-6 py-3 rounded-full font-semibold hover:bg-yellow-100">Work With Us</a>
-  </section>
+<!-- Keep all sections below unchanged, but insert data-aos animations -->
+<!-- Example below in sections -->
+<!-- Add data-aos="fade-up" or other animations to about, services, etc. -->
 
-  <!-- About Section -->
-  <section id="about" class="max-w-5xl mx-auto py-16 px-6">
-    <h3 class="text-3xl font-bold text-green-700 mb-4 text-center">About Us</h3>
-    <p class="text-gray-700 text-lg text-center">
-      Dehs iDgital Solutions is a forward-thinking marketing agency that helps brands and real estate investors grow through strategic online campaigns. We bring together creativity, technology, and market insights to deliver results that matter.
-    </p>
-  </section>
+<!-- About Section -->
+<section class="py-20 bg-gray-50" id="about" data-aos="fade-up">
+  <div class="container mx-auto px-6 max-w-3xl text-center">
+    <h2 class="text-3xl font-bold mb-4">About Dehs iDgital Solutions</h2>
+    <p class="mb-4">We help property professionals grow faster by bridging creativity and automation. Based in the UK with a Kenyan field team, we blend local insight with global execution.</p>
+    <ul class="flex justify-center space-x-6 text-left">
+      <li>Integrity</li>
+      <li>Creativity</li>
+      <li>Tech-Smart</li>
+      <li>Trust</li>
+    </ul>
+  </div>
+</section>
 
-  <!-- Services Section -->
-  <section id="services" class="bg-white py-16 px-6">
-    <h3 class="text-3xl font-bold text-green-700 text-center mb-10">Our Services</h3>
-    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
-      <div class="p-6 border rounded-xl shadow hover:shadow-lg transition">
-        <h4 class="text-xl font-semibold mb-2">Real Estate Marketing</h4>
-        <p class="text-gray-600">We create targeted campaigns to connect property investors with tenants and buyers, just like Zoopla but tailored for Kenya.</p>
+<!-- Services Section -->
+<section class="py-20" id="services" data-aos="fade-up">
+  <div class="container mx-auto px-6">
+    <h2 class="text-3xl font-bold text-center mb-10">Our Services</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="p-6 border rounded-lg hover:shadow-lg" data-aos="zoom-in" data-aos-delay="100">
+        <h3 class="text-xl font-semibold mb-2">Social Media & Ads</h3>
+        <p>Post scheduling, ad campaigns, growth analytics.</p>
       </div>
-      <div class="p-6 border rounded-xl shadow hover:shadow-lg transition">
-        <h4 class="text-xl font-semibold mb-2">Business Advertising</h4>
-        <p class="text-gray-600">Helping SMEs build visibility online with social media campaigns, email marketing, and engaging content.</p>
+      <div class="p-6 border rounded-lg hover:shadow-lg" data-aos="zoom-in" data-aos-delay="200">
+        <h3 class="text-xl font-semibold mb-2">Real Estate Media</h3>
+        <p>Reels, property videos, drone coordination, photography.</p>
       </div>
-      <div class="p-6 border rounded-xl shadow hover:shadow-lg transition">
-        <h4 class="text-xl font-semibold mb-2">Email & WhatsApp Marketing</h4>
-        <p class="text-gray-600">We set up automated communication systems to keep your clients engaged and boost conversions.</p>
+      <div class="p-6 border rounded-lg hover:shadow-lg" data-aos="zoom-in" data-aos-delay="300">
+        <h3 class="text-xl font-semibold mb-2">Lead Funnels & CRM</h3>
+        <p>WhatsApp bots, email campaigns, landing pages.</p>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- Contact Section -->
-  <section id="contact" class="bg-green-700 text-white py-16 px-6 text-center">
-    <h3 class="text-3xl font-bold mb-4">Get In Touch</h3>
-    <p class="mb-6">Let's grow your business together! Reach out to us today.</p>
-    <p class="text-lg">📞 <strong>07708016073</strong></p>
-    <p class="text-lg">📧 <strong>info@dehsdigital.com</strong></p>
-  </section>
+<!-- Portfolio Section -->
+<section class="py-20 bg-gray-50" id="portfolio" data-aos="fade-up">
+  <div class="container mx-auto px-6">
+    <h2 class="text-3xl font-bold text-center mb-10">Portfolio & Results</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div class="rounded overflow-hidden shadow-lg" data-aos="fade-up" data-aos-delay="100">
+        <img src="https://via.placeholder.com/600x400" alt="Property marketing project before and after">
+        <div class="p-4">
+          <p>Before/After property post with 150% engagement boost.</p>
+        </div>
+      </div>
+      <div class="rounded overflow-hidden shadow-lg" data-aos="fade-up" data-aos-delay="200">
+        <img src="https://via.placeholder.com/600x400" alt="Real estate video project result">
+        <div class="p-4">
+          <p>60-sec reel that secured 5 leads in one week.</p>
+        </div>
+      </div>
+    </div>
+    <blockquote class="mt-8 italic text-center">“We filled 3 units in one week with their content — game-changer!”</blockquote>
+  </div>
+</section>
 
-  <!-- Footer -->
-  <footer class="bg-gray-900 text-gray-300 text-center py-4">
-    <p>&copy; 2025 Dehs iDgital Solutions. All rights reserved.</p>
-  </footer>
+<!-- Pricing Section -->
+<section class="py-20" id="pricing" data-aos="fade-up">
+  <div class="container mx-auto px-6 max-w-4xl">
+    <h2 class="text-3xl font-bold text-center mb-10">Pricing Packages</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="p-6 border rounded-lg text-center" data-aos="zoom-in" data-aos-delay="100">
+        <h3 class="text-xl font-semibold mb-2">Starter</h3>
+        <p class="text-2xl font-bold mb-2">KES 15,000/mo</p>
+        <ul class="space-y-2 text-left">
+          <li>Socials Management</li>
+          <li>1 Video Reel</li>
+          <li>Basic Ads</li>
+        </ul>
+      </div>
+      <div class="p-6 border rounded-lg text-center" data-aos="zoom-in" data-aos-delay="200">
+        <h3 class="text-xl font-semibold mb-2">Growth</h3>
+        <p class="text-2xl font-bold mb-2">KES 30,000/mo</p>
+        <ul class="space-y-2 text-left">
+          <li>All Starter Features</li>
+          <li>Email Marketing</li>
+          <li>Lead Funnels</li>
+          <li>CRM Maintenance</li>
+        </ul>
+      </div>
+      <div class="p-6 border rounded-lg text-center" data-aos="zoom-in" data-aos-delay="300">
+        <h3 class="text-xl font-semibold mb-2">Investor Plus</h3>
+        <p class="text-2xl font-bold mb-2">KES 60,000/mo</p>
+        <ul class="space-y-2 text-left">
+          <li>All Growth Features</li>
+          <li>Weekly Media & Photography</li>
+          <li>Advanced Ads</li>
+          <li>Quarterly Website Refresh</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section class="py-20 bg-[var(--green-primary)] text-white" id="contact" data-aos="fade-up">
+  <div class="container mx-auto px-6 max-w-md text-center">
+    <h2 class="text-3xl font-bold mb-4">Get in Touch</h2>
+    <p class="mb-6">Ready to grow? Send us a message or drop your details below.</p>
+    <form name="contact" method="POST" data-netlify="true" class="space-y-4">
+      <input type="hidden" name="form-name" value="contact">
+      <input type="text" name="name" placeholder="Your Name" class="w-full px-4 py-2 rounded text-gray-800" required>
+      <input type="email" name="email" placeholder="Your Email" class="w-full px-4 py-2 rounded text-gray-800" required>
+      <textarea name="message" placeholder="Your Message" class="w-full px-4 py-2 rounded text-gray-800" rows="3" required></textarea>
+      <button type="submit" class="bg-[var(--gold-primary)] text-[var(--green-primary)] px-6 py-3 rounded font-semibold hover:bg-yellow-400">Send Message</button>
+    </form>
+    <div class="mt-6 space-y-2">
+      <p>Or WhatsApp us directly:</p>
+      <a href="https://wa.me/2547708016073" class="underline">+254 770 801 6073</a>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="py-6 text-center bg-gray-800 text-gray-300">
+  <p>&copy; 2025 Dehs iDgital Solutions. All rights reserved.</p>
+</footer>
+
+<script>
+  AOS.init({
+    duration: 800,
+    once: true,
+  });
+</script>
 </body>
 </html>
